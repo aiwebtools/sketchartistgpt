@@ -10,12 +10,19 @@ const Footer = () => {
     { name: 'Disclaimer', href: '#disclaimer', external: false },
     { name: 'More AI Tools', href: 'https://www.aiwebtools.ai', external: true },
     { name: 'Privacy Policy', href: 'https://openai.com/policies/privacy-policy/', external: true },
-    { name: 'Terms of Service', href: 'https://aiwebtools.ai/terms-of-services', external: true },
+    { name: 'Terms of Service', href: 'https://aiwebtools.lovable.app/disclaimers', external: true },
   ];
 
   return (
     <footer className="bg-cyber-dark/90 border-t border-cyber-purple/20 pt-12 pb-6">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Educational Disclaimer */}
+        <div className="mb-8 text-center">
+          <p className="text-sm text-white/60 italic">
+            This tool is provided for informational, educational, and research purposes only and is experimental in nature.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Company Info */}
           <div className="space-y-4">
