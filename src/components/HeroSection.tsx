@@ -1,6 +1,5 @@
 
 import React, { useEffect, useRef } from 'react';
-import { ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -109,12 +108,6 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-      </div>
-      
-      {/* Scroll down indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-white/50 text-sm mb-2">Scroll Down</span>
-        <ArrowDown className="h-5 w-5 text-cyber-purple" />
       </div>
     </div>
   );
