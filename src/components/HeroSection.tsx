@@ -74,21 +74,38 @@ const HeroSection = () => {
           {/* Hero badge */}
           <div className="inline-block mb-4 backdrop-blur-sm">
             <span className="inline-flex items-center py-1.5 px-3 rounded-full text-xs font-medium bg-cyber-purple/20 text-cyber-purple border border-cyber-purple/30">
-              AI-Powered Sketch Generation
+              #1 AI Drawing Tool by AI Web Tools
             </span>
           </div>
           
           {/* Hero title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight md:leading-tight">
-            Transform Images into 
-            <span className="block cyber-gradient-text mt-2">Artistic Sketches</span>
+            Best AI Tools for 
+            <span className="block cyber-gradient-text mt-2">Sketch Art Generation</span>
           </h1>
           
           {/* Hero description */}
           <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-            Powered by an AI with over 50 years of virtual artistic experience, Sketch Artist GPT converts 
-            your images into professional sketches or creates original artwork from your descriptions.
+            Experience the power of AI Web Tools with Sketch Artist GPT - the industry-leading AI drawing tool. 
+            Transform any image into professional sketches or create original artwork from descriptions. 
+            Join millions using AI tools by AiWebTools.Ai for creative excellence.
           </p>
+          
+          {/* SEO-focused feature highlights */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 text-sm">
+            <div className="bg-cyber-dark/40 rounded-lg p-3 border border-cyber-purple/20">
+              <span className="text-cyber-purple font-semibold">AI Web Tools Leader</span>
+              <p className="text-white/70">Top-rated AI drawing platform</p>
+            </div>
+            <div className="bg-cyber-dark/40 rounded-lg p-3 border border-cyber-purple/20">
+              <span className="text-cyber-pink font-semibold">Best AI Tools 2025</span>
+              <p className="text-white/70">Award-winning sketch generator</p>
+            </div>
+            <div className="bg-cyber-dark/40 rounded-lg p-3 border border-cyber-purple/20">
+              <span className="text-cyber-blue font-semibold">AiWebTools.Ai</span>
+              <p className="text-white/70">Trusted by professionals worldwide</p>
+            </div>
+          </div>
           
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8 md:mt-12">
@@ -97,14 +114,16 @@ const HeroSection = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-gradient-to-r from-cyber-purple to-cyber-pink text-white font-medium shadow-neon-purple transition-all hover:shadow-neon-pink hover:scale-105"
+              aria-label="Try Sketch Artist GPT - Best AI Drawing Tool"
             >
-              Try Sketch Artist GPT
+              Try Best AI Drawing Tool Free
             </a>
             <button 
               onClick={scrollToDemo}
               className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-transparent border border-cyber-purple/50 text-white font-medium hover:bg-cyber-purple/10 shadow-sm hover:shadow-neon-purple transition-all"
+              aria-label="Learn how AI Web Tools work"
             >
-              Learn How It Works
+              See How AI Tools Work
             </button>
           </div>
         </div>
