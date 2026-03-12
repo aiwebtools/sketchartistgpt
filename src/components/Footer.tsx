@@ -92,7 +92,7 @@ const Footer = () => {
         {/* More AI Tools Button */}
         <div className="mt-12 flex justify-center md:justify-end">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-2.5 rounded-full bg-gradient-to-r from-cyber-purple to-cyber-pink text-white font-medium shadow-neon-purple transition-all hover:shadow-neon-pink hover:scale-105"
