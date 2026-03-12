@@ -8,7 +8,7 @@ const Footer = () => {
     { name: 'Coloring Book Generator GPT', href: 'https://coloringbookmaker.lovable.app/?via=aiwebtools', external: true },
     { name: 'FAQ', href: '#faq', external: false },
     { name: 'Disclaimer', href: '#disclaimer', external: false },
-    { name: 'More AI Tools', href: 'https://www.aiwebtools.ai', external: true },
+    { name: 'More AI Tools', href: 'https://aiwebtools.lovable.app/?via=aiwebtools', external: true },
     { name: 'Privacy Policy', href: 'https://openai.com/policies/privacy-policy/', external: true },
     { name: 'Terms of Service', href: 'https://aiwebtools.lovable.app/disclaimers', external: true },
   ];
