@@ -16,7 +16,7 @@ const Logo = () => {
           <span className="cyber-gradient-text">Sketch Artist GPT</span>
         </h1>
         <span className="text-xs text-white/60">
-          AI Web Tools by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-purple hover:text-cyber-pink transition-colors" title="AI Web Tools - Best AI Tools Platform">AiWebTools.Ai</a>
+          AI Web Tools by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-purple hover:text-cyber-pink transition-colors" title="AI Web Tools - Best AI Tools Platform">AiWebTools.Ai</a>
         </span>
       </div>
     </div>
